@@ -3,6 +3,8 @@
 # IG : @olahdatasemarang_
 # Get marginal effects from model terms Use ggeffect (ggeffects) With (In) R Software
 install.packages("ggeffects")
+install.packages("effects")
+library("effects")
 library("ggeffects")
 ggeffect = read.csv("https://raw.githubusercontent.com/timbulwidodostp/ggeffect/main/ggeffect/ggeffect.csv",sep = ";")
 # Estimation Get marginal effects from model terms Use ggeffect (ggeffects) With (In) R Software
@@ -14,4 +16,5 @@ plot(ggeffect)
 # Olah Data Semarang
 # WhatsApp : +6285227746673
 # IG : @olahdatasemarang_
+
 # Finished
